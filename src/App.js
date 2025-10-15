@@ -7,7 +7,7 @@ export default function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('https://YOUR_BACKEND_URL/api/billboards')
+    fetch('https://adview360.onrender.com')
       .then((res) => res.json())
       .then((data) => {
         setBillboards(data);
