@@ -7,6 +7,7 @@ app.use(cors());
 const sampleBillboards = [
   { id: 1, name: 'Connaught Place Billboard', city: 'Delhi', location: 'CP-Outer Circle', type: 'Hoarding', footfall: 50000, costPerMonth: 120000 },
   { id: 2, name: 'Bandra Sky Billboard', city: 'Mumbai', location: 'Bandra West', type: 'Digital Screen', footfall: 30000, costPerMonth: 90000 },
+  // { id:, lat:, long:, size:, holding_agency:, type:, city:, location:, country:, digi_pin:, footfall:, costPerMonth:, }
 ];
 
 app.get('/api/billboards', (req, res) => {
